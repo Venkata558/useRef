@@ -8,9 +8,9 @@ function MyComp() {
   const inputRef2 = useRef(null);
   const inputRef3 = useRef(null);
 
-  useEffect(() => {
+  /*useEffect(() => {
     console.log("Component Rendered!.");
-  });
+  });*/
 
   function handleClick1() {
     b1.style.color = "black";
@@ -73,7 +73,7 @@ function MyComp() {
   }
 
   return (
-    <div className="container">
+    <div className="box">
       <h2>useRef-Hook</h2>
       <button id="btn1" onClick={handleClick1}>
         Click me!
